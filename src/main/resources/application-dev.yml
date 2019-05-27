@@ -2,7 +2,7 @@
 spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    #    url: jdbc:oracle:thin:@192.168.1.98:1521:orcl
+    # 高版本不需要 driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql:///ims?serverTimezone=Asia/Shanghai&useSSL=false&useUnicode=true&characterEncoding=UTF-8
     username: root
     password: zz654321

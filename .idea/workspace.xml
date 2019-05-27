@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6da9117b-2e97-4d53-a305-1a102d6e5f6a" name="Default Changelist" comment="" />
+    <list default="true" id="6da9117b-2e97-4d53-a305-1a102d6e5f6a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/KotlinApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wang/KotlinApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,29 +22,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="19" column="40" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="40" />
+            <state relative-caret-position="378">
+              <caret line="117" column="41" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application-test.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+            <state relative-caret-position="152">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wang/KotlinApplication.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="74">
+              <caret line="13" column="66" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -45,20 +61,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wang/controller/UserController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="50" column="32" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="32" />
+            <state relative-caret-position="427">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wang/ServletInitializer.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wang/KotlinApplication.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-              <folding>
-                <element signature="e#18#163#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="212">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -83,17 +96,24 @@
       <find>spring-boot-starter-data-jpa</find>
       <find>api</find>
       <find>tomcat-embed-jasper</find>
-      <find>mybatis-spring-boot-starter</find>
-      <find>mysql-connector-java</find>
-      <find>spring-boot-starter-tomcat</find>
       <find>Jackson</find>
       <find>kotlin</find>
       <find>1.3.31</find>
       <find>jackson</find>
-      <find>spring-boot-starter-web</find>
       <find>tomcat</find>
       <find>start</find>
       <find>starter</find>
+      <find>spring-boot-starter</find>
+      <find>allopen</find>
+      <find>mysql-connector-java</find>
+      <find>kotlin-reflect</find>
+      <find>mybatis</find>
+      <find>mysql</find>
+      <find>spring-boot-starter-web</find>
+      <find>spring-boot-starter-tomcat</find>
+      <find>spring-boot-starter-jdbc</find>
+      <find>mybatis-spring-boot-starter</find>
+      <find>javax.servlet-api</find>
     </findStrings>
     <replaceStrings>
       <replace>com.wang.entity.UserInfo</replace>
@@ -114,14 +134,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wang/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wang/controller/UserController2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wang/service/IUserService.kt" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wang/entity/UserInfo.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/wang/controller/UserController.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/wang/ServletInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wang/ServletInitializer1.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wang/ServletInitializer.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/wang/KotlinApplication.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wang/ServletInitializer.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
       </list>
     </option>
   </component>
@@ -145,9 +166,9 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="307" />
-    <option name="y" value="80" />
-    <option name="width" value="1623" />
+    <option name="x" value="759" />
+    <option name="y" value="31" />
+    <option name="width" value="1490" />
     <option name="height" value="901" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -156,6 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,14 +232,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/idea_preject/pay_test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -317,7 +338,9 @@
       <option name="presentableId" value="Default" />
       <updated>1558924145716</updated>
       <workItem from="1558924148770" duration="11881000" />
-      <workItem from="1558958497422" duration="266000" />
+      <workItem from="1558958497422" duration="1581000" />
+      <workItem from="1558960084542" duration="951000" />
+      <workItem from="1558961041824" duration="1657000" />
     </task>
     <task id="LOCAL-00001" summary="新建Kotlin_spring_boot项目">
       <created>1558958716638</created>
@@ -326,14 +349,22 @@
       <option name="project" value="LOCAL" />
       <updated>1558958716638</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新建Kotlin_spring_boot项目">
+      <created>1558958788498</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558958788498</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12147000" />
+    <option name="totallyTimeSpent" value="16070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19296375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -345,9 +376,9 @@
       <window_info id="Designer" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49963424" visible="true" weight="0.38882682" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.46153846" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.24134079" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.41564247" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.45810056" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -355,25 +386,25 @@
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.32924107" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.38882682" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="JRebel Executor" order="15" />
       <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="17" weight="0.32700893" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.3698324" />
       <window_info anchor="bottom" id="Tail" order="18" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.17004265" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.18656716" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Mybatis datasource" order="6" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,13 +430,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wang/KotlinApplication.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wang/controller/UserController2.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -466,13 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wang/service/impl/UserService.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wang/dao/UserMapper.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -508,41 +525,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-tomcat/2.0.2.RELEASE/spring-boot-starter-tomcat-2.0.2.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.1/mybatis-spring-boot-autoconfigure-1.3.1.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="40" />
+        <state relative-caret-position="167">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.7.RELEASE/spring-tx-5.1.7.RELEASE.jar!/org/springframework/transaction/annotation/Propagation.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        <state relative-caret-position="95">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wang/KotlinApplication.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.7.RELEASE/spring-tx-5.1.7.RELEASE-sources.jar!/org/springframework/transaction/annotation/Propagation.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wang/controller/UserController.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wang/service/impl/UserService.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="50" column="32" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="32" />
+        <state relative-caret-position="361">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wang/ServletInitializer.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="211">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding>
             <element signature="e#18#163#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1-sources.jar!/org/mybatis/spring/annotation/MapperScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wang/KotlinApplication.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="13" column="66" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wang/controller/UserController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="117" column="41" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
