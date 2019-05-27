@@ -2,11 +2,12 @@
 spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
+    # 高版本不需要 driver-class-name: com.mysql.jdbc.Driver
     #    url: jdbc:oracle:thin:@192.168.1.98:1521:orcl
     url: jdbc:mysql://localhost:3306/ims?useUnicode=true&characterEncoding=utf8
     username: root
     password: zz654321
-    driver-class-name: com.mysql.jdbc.Driver
+
     #    driver-class-name: oracle.jdbc.driver.OracleDriver
     # 下面为连接池的补充设置，应用到上面所有数据源中
     # 初始化大小，最小，最大
