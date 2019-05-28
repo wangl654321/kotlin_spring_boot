@@ -48,6 +48,6 @@
             <AppenderRef ref="yoyiError"/>
         </Root>
         <!--打印sql语句-->
-        <logger name="com.yoyi.pay.dao" level="debug"/>
+        <logger name="com.wang.dao" level="debug"/>
     </Loggers>
 </Configuration>
