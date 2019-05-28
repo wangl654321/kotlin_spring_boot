@@ -2,6 +2,8 @@ package com.wang.controller
 
 import com.debug.service.IUserService
 import com.wang.entity.UserInfo
+import org.springframework.stereotype.Controller
+import org.springframework.ui.Model
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.ResponseBody
 import org.springframework.web.bind.annotation.RestController
@@ -26,17 +28,21 @@ import javax.servlet.http.HttpServletRequest
  * 审核描述：
  *
  */
-@RestController
+@Controller
 class UserController {
 
     @Resource
     lateinit var userService: IUserService
 
+    @RequestMapping("/add")
+    fun addForm(): String = "form"
+
     @RequestMapping("/getUserById")
-    fun getUserById(req: HttpServletRequest): UserInfo {
+    fun getUserById(req: HttpServletRequest,model: Model): String {
         val id: Int = Integer.parseInt(req.getParameter("id"))
         val userInfo = userService.findUserById(id)
-        return userInfo
+        model.addAttribute("userInfo",userInfo)
+        return "user"
     }
 
     @RequestMapping("/saveUser")
